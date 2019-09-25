@@ -1,6 +1,6 @@
 #include "screen.h"
 
-int get_screen_offset(int row, int col){
+int get_screen_offset(int col, int row){
 	int offset = (row * MAX_COLS + col) * 2;
 	return offset;
 }
